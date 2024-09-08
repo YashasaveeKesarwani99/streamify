@@ -2,7 +2,7 @@
 
 A frontend application that displays an analytics dashboard for a fictional music streaming service. The dashboard presents key metrics and data visualizations, allowing the service's management team to gain insights into user activity, revenue, and content performance. The goal was to build a functional and visually appealing dashboard that is both responsive and user-friendly.
 
-![Project Screenshot](./streamify.png)
+![Project Screenshot](./streamify-new.png)
 
 ## Table of Contents
 
