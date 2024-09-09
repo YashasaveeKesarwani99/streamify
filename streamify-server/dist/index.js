@@ -8,7 +8,12 @@ const express_1 = __importDefault(require("express"));
 const data_routes_1 = __importDefault(require("./src/routes/data-routes"));
 const app = (0, express_1.default)();
 const PORT = process.env.PORT || 3000;
-app.use((0, cors_1.default)());
+const corsOptions = {
+    origin: ["https://streamify-web.vercel.app/", "http://localhost:5173/"],
+    methods: ["GET"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+};
+app.use((0, cors_1.default)(corsOptions));
 app.use(express_1.default.json());
 app.use("/api", data_routes_1.default);
 app.listen(PORT, () => {
