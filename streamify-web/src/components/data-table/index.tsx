@@ -26,7 +26,7 @@ const DataTable = () => {
       {isLoading ? (
         <Skeleton
           variant="rectangular"
-          width={screenWidth < 768 ? 500 : 1200}
+          width={screenWidth < 768 ? 280 : 1200}
           height={400}
           className="!mt-8"
         />

@@ -27,13 +27,13 @@ const UserGrowth = () => {
         className="bg-secondary mt-8 p-5 flex items-center justify-center rounded-2xl drop-shadow-xl"
         style={{ height: "420px", width: "100%" }}
       >
-        {isLoading ? (
+        {true ? (
           <div className="flex flex-col">
             <Skeleton variant="text" width={80} />
             <Skeleton variant="text" width={screenWidth < 768 ? 200 : 430} />
             <Skeleton
               variant="rectangular"
-              width={screenWidth < 1000 ? 300 : 1000}
+              width={screenWidth < 1000 ? 250 : 1000}
               height={300}
             />
           </div>
