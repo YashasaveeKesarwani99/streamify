@@ -8,10 +8,11 @@ import { useWindowWidth } from "../../hooks/use-window-width";
 const TopStreams = () => {
   const notify = useNotify();
   const screenWidth = useWindowWidth();
+  const apiUrl = import.meta.env.VITE_API_URL;
 
   const { data, error, isLoading } = useFetchWithCache<TopStreamsResponse>({
     key: ["top-streamed"],
-    url: "http://localhost:3000/api/top-streamed",
+    url: `${apiUrl}/top-streamed`,
   });
 
   useEffect(() => {

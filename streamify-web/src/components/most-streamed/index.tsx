@@ -5,10 +5,11 @@ import { useNotify } from "../../hooks/use-notify";
 
 const MostStreamed = () => {
   const notify = useNotify();
+  const apiUrl = import.meta.env.VITE_API_URL;
 
   const { data, error, isLoading } = useFetchWithCache<MostStreamedResponse>({
     key: ["most-streamed"],
-    url: "http://localhost:3000/api/most-streamed",
+    url: `${apiUrl}/most-streamed`,
   });
 
   useEffect(() => {

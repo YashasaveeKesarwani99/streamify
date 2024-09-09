@@ -8,10 +8,11 @@ import { useWindowWidth } from "../../hooks/use-window-width";
 const UserGrowth = () => {
   const notify = useNotify();
   const screenWidth = useWindowWidth();
+  const apiUrl = import.meta.env.VITE_API_URL;
 
   const { data, error, isLoading } = useFetchWithCache<UserGrowthResponse>({
     key: ["user-growth"],
-    url: "http://localhost:3000/api/user-growth",
+    url: `${apiUrl}/user-growth`,
   });
 
   useEffect(() => {

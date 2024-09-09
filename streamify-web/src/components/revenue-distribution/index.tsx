@@ -6,11 +6,12 @@ import { useNotify } from "../../hooks/use-notify";
 
 const RevenueDistribution = () => {
   const notify = useNotify();
+  const apiUrl = import.meta.env.VITE_API_URL;
 
   const { data, error, isLoading } =
     useFetchWithCache<RevenueDistributionResponse>({
       key: ["revenue-distribution"],
-      url: "http://localhost:3000/api/revenue-distribution",
+      url: `${apiUrl}/revenue-distribution`,
     });
 
   useEffect(() => {
