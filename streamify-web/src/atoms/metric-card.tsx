@@ -9,7 +9,7 @@ interface MetricCardProps {
 const MetricCard: React.FC<MetricCardProps> = ({ title, value, isLoading }) => {
   return (
     <div className="bg-secondary w-full px-5 py-6 rounded-2xl flex flex-col gap-2 drop-shadow-xl">
-      <Typography>{title}</Typography>
+      <Typography className="whitespace-nowrap">{title}</Typography>
       {isLoading ? (
         <Skeleton variant="text" />
       ) : (

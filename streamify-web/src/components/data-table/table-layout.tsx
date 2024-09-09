@@ -95,6 +95,7 @@ const TableLayout: React.FC<TableLayoutProps> = ({ rows }) => {
   // handling query change
   const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const query = event.target.value;
+    setPage(0);
     setSearchQuery(query);
     debounceFilterData(query);
   };

@@ -29,7 +29,7 @@ const MostStreamed = () => {
               className="!absolute !top-0 !w-full !h-full"
             />
           ) : (
-            <img src={data?.image} />
+            <img src={data?.image} className="bg-cover bg-center" />
           )}
           <img />
         </div>

@@ -20,10 +20,10 @@ const MetricCards = () => {
     }
   }, [error]);
 
-  if (screenWidth < 768) {
+  if (screenWidth < 769) {
     return (
       <div className="pt-10 flex flex-col !gap-10 justify-between">
-        <div className="flex justify-between items-center !gap-10">
+        <div className="flex justify-between items-center !gap-8">
           <MetricCard
             title="Total Users"
             value={data?.totalUsers}
