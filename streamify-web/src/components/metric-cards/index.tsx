@@ -28,11 +28,13 @@ const MetricCards = () => {
             title="Total Users"
             value={data?.totalUsers}
             isLoading={isLoading}
+            className="px-4"
           />
           <MetricCard
             title="Active Users"
             value={data?.activeUsers}
             isLoading={isLoading}
+            className="px-4"
           />
         </div>
         <div className="flex flex-col justify-between items-center !gap-10 sm:flex-row">
