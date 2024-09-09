@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const data_controllers_1 = require("../controllers/data-controllers");
+const router = (0, express_1.Router)();
+router.get("/metric-cards", data_controllers_1.getMetricCardsData);
+router.get("/most-streamed", data_controllers_1.getMostStreamedArtist);
+router.get("/revenue-distribution", data_controllers_1.getRevenueDistribution);
+router.get("/top-streamed", data_controllers_1.getTopFiveStreamedSongs);
+router.get("/user-growth", data_controllers_1.getUserGrowth);
+router.get("/table-data", data_controllers_1.getTableData);
+exports.default = router;
