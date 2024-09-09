@@ -8,10 +8,11 @@ import { useWindowWidth } from "../../hooks/use-window-width";
 const DataTable = () => {
   const notify = useNotify();
   const screenWidth = useWindowWidth();
+  const apiUrl = import.meta.env.VITE_API_URL;
 
   const { data, error, isLoading } = useFetchWithCache<TableDataResponse[]>({
     key: ["data-table"],
-    url: "http://localhost:3000/api/table-data",
+    url: `${apiUrl}/table-data`,
   });
 
   useEffect(() => {
