@@ -90,18 +90,18 @@ This project is a web application that utilizes React on the frontend and Expres
 
 - **The implementation** - I've used react and typescript to form the basis of the frontend. Vite as the modular bundler. I've tried to give an MVC structure to the codebase ( not in the fullest sense, tho ).
 
-The data fetching, error throwing, caching and loading/pending status has been taken care by `react query`. The custom hook that I've made to fetch data acts as controller. the model/schema of response have been exported to `global.d.ts`. The view structure has been implemented through modular and clean code practices. I have divided the codebase into pages, the subsequent components and some atoms that are nothing but smallest reusable components.
+- The data fetching, error throwing, caching and loading/pending status has been taken care by `react query`. The custom hook that I've made to fetch data acts as controller. the model/schema of response have been exported to `global.d.ts`. The view structure has been implemented through modular and clean code practices. I have divided the codebase into pages, the subsequent components and some atoms that are nothing but smallest reusable components.
 
-The data fetching is done with a `custom hook` which caching and an appropriate stale time to make efficient calls to our server. I have also created two other custom hooks for fetching current screen width ( helped in making the app responsive ) and for showing snackbar ( error handling in frontend ).
+- The data fetching is done with a `custom hook` which caching and an appropriate stale time to make efficient calls to our server. I have also created two other custom hooks for fetching current screen width ( helped in making the app responsive ) and for showing snackbar ( error handling in frontend ).
 
-I have used `materialUI` as it has lot of options, good documentation and also the bundle size is lesser than antd ( saying by a first hand experience and the community supports this opinion ).
+- I have used `materialUI` as it has lot of options, good documentation and also the bundle size is lesser than antd ( saying by a first hand experience and the community supports this opinion ).
 
-I have used `tailwindCSS` as the css library. My goto library as it has the best documentation, suggestive classes and again - lot of options.
+- I have used `tailwindCSS` as the css library. My goto library as it has the best documentation, suggestive classes and again - lot of options.
 
-I haven't implemented a global state as the communications between the components were next to nothing. Although I had installed `recoil` initially but removed it from the package after seeing it's futility.
+- I haven't implemented a global state as the communications between the components were next to nothing. Although I had installed `recoil` initially but removed it from the package after seeing it's futility.
 
-I was going to implement unit testing with `vitest` and `react-testing-library` but unable to do it because of time constraint. I'll add that later.
+- I was going to implement unit testing with `vitest` and `react-testing-library` but unable to do it because of time constraint. I'll add that later.
 
-There was a minimal backend/server code to give our frontend a reality check by making calls to a real server. There also I've implemented an MVC structure.
+- There was a minimal backend/server code to give our frontend a reality check by making calls to a real server. There also I've implemented an MVC structure.
 
-There would be many drawbacks in the application as it needs a thorough testing but I'm happy to say that it works right now. it's responsive too. I'm open to feedbacks!
+- There would be many drawbacks in the application as it needs a thorough testing but I'm happy to say that it works right now. it's responsive too. I'm open to feedbacks!
