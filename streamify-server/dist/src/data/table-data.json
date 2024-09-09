@@ -1,0 +1,212 @@
+[
+  {
+    "songName": "Good 4 U",
+    "artist": "Olivia Rodrigo",
+    "dateStreamed": "2024-08-29",
+    "streamCount": 4100,
+    "userId": "user030"
+  },
+  {
+    "songName": "Blinding Lights",
+    "artist": "The Weeknd",
+    "dateStreamed": "2024-08-28",
+    "streamCount": 4000,
+    "userId": "user029"
+  },
+  {
+    "songName": "Butter",
+    "artist": "BTS",
+    "dateStreamed": "2024-08-27",
+    "streamCount": 3900,
+    "userId": "user028"
+  },
+  {
+    "songName": "Rumors",
+    "artist": "Lizzo",
+    "dateStreamed": "2024-08-26",
+    "streamCount": 3800,
+    "userId": "user027"
+  },
+  {
+    "songName": "Shivers",
+    "artist": "Ed Sheeran",
+    "dateStreamed": "2024-08-25",
+    "streamCount": 3700,
+    "userId": "user026"
+  },
+  {
+    "songName": "Happier Than Ever",
+    "artist": "Billie Eilish",
+    "dateStreamed": "2024-08-24",
+    "streamCount": 3600,
+    "userId": "user025"
+  },
+  {
+    "songName": "Stay",
+    "artist": "The Kid LAROI",
+    "dateStreamed": "2024-08-23",
+    "streamCount": 3500,
+    "userId": "user024"
+  },
+  {
+    "songName": "Kiss Me More",
+    "artist": "Doja Cat",
+    "dateStreamed": "2024-08-22",
+    "streamCount": 3400,
+    "userId": "user023"
+  },
+  {
+    "songName": "Blinding Lights",
+    "artist": "The Weeknd",
+    "dateStreamed": "2024-08-21",
+    "streamCount": 3300,
+    "userId": "user022"
+  },
+  {
+    "songName": "Peaches",
+    "artist": "Justin Bieber",
+    "dateStreamed": "2024-08-20",
+    "streamCount": 3200,
+    "userId": "user021"
+  },
+  {
+    "songName": "Levitating",
+    "artist": "Dua Lipa",
+    "dateStreamed": "2024-08-19",
+    "streamCount": 3100,
+    "userId": "user020"
+  },
+  {
+    "songName": "Montero (Call Me By Your Name)",
+    "artist": "Lil Nas X",
+    "dateStreamed": "2024-08-18",
+    "streamCount": 3000,
+    "userId": "user019"
+  },
+  {
+    "songName": "Good 4 U",
+    "artist": "Olivia Rodrigo",
+    "dateStreamed": "2024-08-17",
+    "streamCount": 2900,
+    "userId": "user018"
+  },
+  {
+    "songName": "Butter",
+    "artist": "BTS",
+    "dateStreamed": "2024-08-16",
+    "streamCount": 2800,
+    "userId": "user017"
+  },
+  {
+    "songName": "Save Your Tears",
+    "artist": "The Weeknd",
+    "dateStreamed": "2024-08-15",
+    "streamCount": 2700,
+    "userId": "user016"
+  },
+  {
+    "songName": "Rumors",
+    "artist": "Lizzo",
+    "dateStreamed": "2024-08-14",
+    "streamCount": 2600,
+    "userId": "user015"
+  },
+  {
+    "songName": "Shivers",
+    "artist": "Ed Sheeran",
+    "dateStreamed": "2024-08-13",
+    "streamCount": 2500,
+    "userId": "user014"
+  },
+  {
+    "songName": "Happier Than Ever",
+    "artist": "Billie Eilish",
+    "dateStreamed": "2024-08-12",
+    "streamCount": 2400,
+    "userId": "user013"
+  },
+  {
+    "songName": "Stay",
+    "artist": "The Kid LAROI",
+    "dateStreamed": "2024-08-11",
+    "streamCount": 2300,
+    "userId": "user012"
+  },
+  {
+    "songName": "Industry Baby",
+    "artist": "Lil Nas X",
+    "dateStreamed": "2024-08-10",
+    "streamCount": 2200,
+    "userId": "user011"
+  },
+  {
+    "songName": "Bad Habits",
+    "artist": "Ed Sheeran",
+    "dateStreamed": "2024-08-09",
+    "streamCount": 2100,
+    "userId": "user010"
+  },
+  {
+    "songName": "Leave The Door Open",
+    "artist": "Bruno Mars",
+    "dateStreamed": "2024-08-08",
+    "streamCount": 2000,
+    "userId": "user009"
+  },
+  {
+    "songName": "Kiss Me More",
+    "artist": "Doja Cat",
+    "dateStreamed": "2024-08-07",
+    "streamCount": 1900,
+    "userId": "user008"
+  },
+  {
+    "songName": "Montero (Call Me By Your Name)",
+    "artist": "Lil Nas X",
+    "dateStreamed": "2024-08-06",
+    "streamCount": 1800,
+    "userId": "user007"
+  },
+  {
+    "songName": "Good 4 U",
+    "artist": "Olivia Rodrigo",
+    "dateStreamed": "2024-08-05",
+    "streamCount": 1700,
+    "userId": "user006"
+  },
+  {
+    "songName": "Peaches",
+    "artist": "Justin Bieber",
+    "dateStreamed": "2024-08-04",
+    "streamCount": 1600,
+    "userId": "user005"
+  },
+  {
+    "songName": "Save Your Tears",
+    "artist": "The Weeknd",
+    "dateStreamed": "2024-08-03",
+    "streamCount": 1400,
+    "userId": "user004"
+  },
+  {
+    "songName": "Levitating",
+    "artist": "Dua Lipa",
+    "dateStreamed": "2024-08-02",
+    "streamCount": 1300,
+    "userId": "user003"
+  },
+  {
+    "songName": "Watermelon Sugar",
+    "artist": "Harry Styles",
+    "dateStreamed": "2024-08-01",
+    "streamCount": 1200,
+    "userId": "user002"
+  },
+  {
+    "songName": "Blinding Lights",
+    "artist": "The Weeknd",
+    "dateStreamed": "2024-08-01",
+    "streamCount": 1500,
+    "userId": "user001"
+  }
+]
