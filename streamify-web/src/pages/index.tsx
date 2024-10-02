@@ -1,10 +1,12 @@
-import DataTable from "../components/data-table";
+import React, { Suspense } from "react";
 import Header from "../components/header";
 import MetricCards from "../components/metric-cards";
 import MostStreamed from "../components/most-streamed";
 import RevenueDistribution from "../components/revenue-distribution";
 import TopStreams from "../components/top-streams";
-import UserGrowth from "../components/user-growth";
+
+const UserGrowth = React.lazy(() => import("../components/user-growth"));
+const DataTable = React.lazy(() => import("../components/data-table"));
 
 const Page = () => {
   return (
@@ -16,8 +18,12 @@ const Page = () => {
         <RevenueDistribution />
         <TopStreams />
       </div>
-      <UserGrowth />
-      <DataTable />
+      <Suspense>
+        <UserGrowth />
+      </Suspense>
+      <Suspense>
+        <DataTable />
+      </Suspense>
     </div>
   );
 };
