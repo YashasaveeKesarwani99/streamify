@@ -105,3 +105,7 @@ This project is a web application that utilizes React on the frontend and Expres
 - There was a minimal backend/server code to give our frontend a reality check by making calls to a real server. There also I've implemented an MVC structure.
 
 - There would be many drawbacks in the application as it needs a thorough testing but I'm happy to say that it works right now. it's responsive too. I'm open to feedbacks!
+
+## Logs
+
+- Added lazy loading to few components that were not visible on the folder, this divded the js chunks hence improved the FCP. Also adding it to the components that were not on the top did not affect the CLS score.
