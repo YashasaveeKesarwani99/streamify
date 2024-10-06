@@ -1,0 +1,15 @@
+{
+  "short_name": "Streamify",
+  "name": "Streamify",
+  "icons": [
+    {
+      "src": "/public/vite.svg",
+      "type": "image/svg",
+      "sizes": "1024x1024"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
