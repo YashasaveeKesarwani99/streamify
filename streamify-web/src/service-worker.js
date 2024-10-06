@@ -1,3 +1,5 @@
+/// <reference lib="webworker" />
+
 // this service worker has been created for learning and for deployment purpose
 // we'll be installing SW, listening to requests and activating the SW through this file.
 
