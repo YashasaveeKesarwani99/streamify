@@ -111,3 +111,5 @@ This project is a web application that utilizes React on the frontend and Expres
 - Added lazy loading to few components that were not visible on the folder, this divded the js chunks hence improved the FCP. Also adding it to the components that were not on the top did not affect the CLS score.
 
 - Added intersectiong observer to the elements that does not come in the folder of the page, this reduced the LCP.
+
+- Added service workers. The vite service worker configuration is a little touchy. User can make fetch requests even when they are offline.
